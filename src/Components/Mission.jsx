@@ -4,15 +4,14 @@ import { TbFocus2, TbTargetArrow } from "react-icons/tb";
 
 function Mission() {
   return (
-    <div style={{ padding: "40px" }}>
+    <div style={{ padding: "40px" }} className="px-3 px-sm-4">
       <Row className="gy-3">
-        {/* First Column: Single Card */}
         <Col xs={12} md={4}>
           <div
             style={{
               height: "40rem",
-              width: "100%", // Make it responsive
-              minHeight: "30rem", // Prevents it from shrinking too much on small screens
+              width: "100%",
+              minHeight: "30rem",
             }}
           >
             <Card.Img
@@ -24,7 +23,6 @@ function Mission() {
           </div>
         </Col>
 
-        {/* Second Column: Two Stacked Cards */}
         <Col xs={12} md={4}>
           <Row className="gy-3">
             <Col xs={12}>
@@ -32,7 +30,7 @@ function Mission() {
                 style={{
                   width: "100%",
                   height: "20rem",
-                  minHeight: "18rem", // Ensures that it remains within a reasonable range
+                  minHeight: "18rem",
                 }}
               >
                 <Card.Img
@@ -70,7 +68,6 @@ function Mission() {
           </Row>
         </Col>
 
-        {/* Third Column: Two Stacked Cards */}
         <Col xs={12} md={4}>
           <Row className="gy-3">
             <Col xs={12}>
@@ -101,8 +98,8 @@ function Mission() {
               <div
                 style={{
                   width: "100%",
-                  height: "21rem", // Fixed height here for consistency
-                  minHeight: "20rem", // Prevents shrinking
+                  height: "21rem",
+                  minHeight: "20rem",
                 }}
               >
                 <Card.Img

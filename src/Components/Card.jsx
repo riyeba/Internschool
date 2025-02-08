@@ -23,7 +23,14 @@ function Cardy() {
             Welcome To Bill Gates Institute of Computer Science and Management, Osmanabad.
           </Card.Text>
           <Card.Text>
-            <h1 style={{ fontSize: "4rem", color: "white" }} className="fw-bold">
+            <h1
+              style={{
+                fontSize: "2rem",
+                color: "white",
+                fontWeight: "bold",
+              }}
+              className="fw-bold"
+            >
               We Provide High Quality
               <span
                 style={{
@@ -41,7 +48,7 @@ function Cardy() {
             </h1>
           </Card.Text>
           <Card.Text>
-            <p style={{ color: "white", fontSize: "1.15rem" }}>
+            <p style={{ color: "white", fontSize: "1rem" }}>
               The Scientific Research long back established that, ‘universe is expanding’ which holds true even today.
               And now we say ‘world is shrinking’ - this also is True! The introduction of a global network of the
               internet has turned the whole globe into a village. The only thing that is emerging fast in the current
@@ -50,7 +57,13 @@ function Cardy() {
           </Card.Text>
           <Button
             className="p-3 mt-4 bg-warning"
-            style={{ borderRadius: '0', border:"0", width: "14rem", height: "5rem", backgroundColor: "#FF6A13" }}
+            style={{
+              borderRadius: '0',
+              border: "0",
+              width: "14rem",
+              height: "5rem",
+              backgroundColor: "#FF6A13",
+            }}
           >
             <span className="fs-5 fw-semibold">Get Started</span>
           </Button>
@@ -116,7 +129,6 @@ function Cardy() {
               />
             </div>
           </Carousel.Item>
-
           <Carousel.Item>
             <div
               style={{
@@ -138,7 +150,6 @@ function Cardy() {
               />
             </div>
           </Carousel.Item>
-
           <Carousel.Item>
             <div
               style={{
@@ -151,28 +162,6 @@ function Cardy() {
             >
               <img
                 src="https://images.unsplash.com/photo-1495995424756-6a5a3f9e7543?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="event"
-                style={{
-                  width: "100%",
-                  height: "70rem",
-                  objectFit: "cover",
-                }}
-              />
-            </div>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <div
-              style={{
-                width: "100%",
-                backgroundColor: "#fff",
-                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-                overflow: "hidden",
-                textAlign: "center",
-              }}
-            >
-              <img
-                src="https://plus.unsplash.com/premium_photo-1729038880769-80c51e4c509a?q=80&w=2144&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="event"
                 style={{
                   width: "100%",
