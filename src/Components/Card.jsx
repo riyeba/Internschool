@@ -9,8 +9,8 @@ function Cardy() {
       <Card
         className="w-100 w-lg-50"
         style={{
-          height: "70rem",
-          padding: "3rem",
+          height: "50rem",
+          padding: "2rem",
           backgroundImage: "url('https://images.unsplash.com/photo-1738762388662-dc8387c816ba?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -74,7 +74,7 @@ function Cardy() {
       <section
         className="w-100 w-lg-50"
         style={{
-          height: "70rem",
+          height: "50rem",
           overflow: "hidden",
           position: "relative",
           right: "2px",
@@ -103,7 +103,7 @@ function Cardy() {
                 style={{
                   width: "100%",
                   height: "70rem",
-                  objectFit: "cover",
+                  objectFit: "",
                 }}
               />
             </div>
