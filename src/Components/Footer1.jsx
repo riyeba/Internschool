@@ -2,13 +2,20 @@ import React from "react";
 import { Card, Row, Col, Button } from "react-bootstrap";
 import { FiAward, FiUser } from "react-icons/fi";
 import { TbTargetArrow } from "react-icons/tb";
+import "aos/dist/aos.css";
+
+import Aos from "aos";
+import { useEffect } from "react";
 
 function Footer1() {
+   useEffect(() => {
+      Aos.init();
+    }, []);
   return (
     <div style={{ padding: "10px 20px", backgroundColor: "#0b132b" }}>
       <Row className="gy-3">
         {/* First Column: Single Card (Higher Height) */}
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} >
           <div className="p-2">
             <Card.Body>
               <p className="fs-6 fw-bold text-warning">ACADEMIC</p>
@@ -31,7 +38,7 @@ function Footer1() {
                 and a responsible Indian citizen. I am sure that, future will be
                 ours as I.T. is India's Tomorrow.
               </Card.Text>
-              <Button variant="primary" className="bg-warning fs-5 fw-bold" style={{ borderRadius: "0", border: "0", width: "100%", height: "4rem", marginTop: "1.2rem" }}>
+              <Button variant="primary" className="bg-warning fs-5 fw-bold" style={{ borderRadius: "0", border: "0", width: "100%", height: "4rem", marginTop: "1.2rem" }} data-aos="fade-right">
                 APPLY NOW
               </Button>
             </Card.Body>
@@ -39,7 +46,7 @@ function Footer1() {
         </Col>
 
         {/* Second Column: Two Stacked Cards (Equal Width) */}
-        <Col xs={12} md={3}>
+        <Col xs={12} md={3} data-aos="fade-right">
           <Row className="gy-3">
             <Col xs={12}>
               <div
@@ -87,7 +94,7 @@ function Footer1() {
         </Col>
 
         {/* Third Column: One Card */}
-        <Col xs={12} md={3}>
+        <Col xs={12} md={3} data-aos="fade-right">
           <Row className="gy-3">
             <Col xs={12}>
               <div

@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Card, Row, Col } from "react-bootstrap";
 import { TbFocus2, TbTargetArrow } from "react-icons/tb";
+import "aos/dist/aos.css";
+
+import Aos from "aos";
 
 function Mission() {
+
+  useEffect(() => {
+      Aos.init();
+    }, []);
   return (
     <div style={{ padding: "40px" }} className="px-3 px-sm-4">
       <Row className="gy-3">
@@ -23,7 +30,7 @@ function Mission() {
           </div>
         </Col>
 
-        <Col xs={12} md={4}>
+        <Col xs={12} md={4} data-aos="fade-left">
           <Row className="gy-3">
             <Col xs={12}>
               <div
@@ -68,7 +75,7 @@ function Mission() {
           </Row>
         </Col>
 
-        <Col xs={12} md={4}>
+        <Col xs={12} md={4} data-aos="fade-left">
           <Row className="gy-3">
             <Col xs={12}>
               <div

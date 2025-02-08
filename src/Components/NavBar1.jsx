@@ -5,8 +5,8 @@ import { MdOutlineWifiCalling3 } from "react-icons/md";
 
 function NavBar1() {
   return (
-    <div className="container pt-2 border-bottom border-bottom-2">
-      <div className="d-flex justify-content-between align-items-center flex-wrap">
+    <div className=" pt-2 border-bottom border-bottom-2">
+      <div className="d-flex justify-content-around align-items-center flex-wrap">
         
       <div className="w-100 text-center d-block d-md-none" >
   <Card.Img
