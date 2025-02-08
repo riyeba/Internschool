@@ -7,7 +7,7 @@ function Studentform() {
         <h1 className="fs-1 fw-bold" style={{ marginBottom: "4rem" }}>
         Student can download various forms from here:
       </h1>
-        <div className='d-flex flex-column'>
+        <div className='d-flex flex-column container'>
         <Button
             className="p-3 mt-4"
             style={{ borderRadius: '0', width: "30rem", height: "5rem", border:"0",backgroundColor:"hsl(45.25714285714285, 70.85020242914982%, 51.56862745098039%)" }}
