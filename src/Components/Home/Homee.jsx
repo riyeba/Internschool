@@ -5,7 +5,7 @@ import Mission from "../Mission";
 
 function Homee() {
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
       <Cardy />
       <Mission/>
       <Footer1 />
