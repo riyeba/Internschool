@@ -18,14 +18,14 @@ function Cardy() {
           borderRadius: '0',
         }}
       >
-        <Card.Body style={{ marginTop: "10rem" }}>
+        <Card.Body>
           <Card.Text className="fs-4 text-warning">
             Welcome To Bill Gates Institute of Computer Science and Management, Osmanabad.
           </Card.Text>
           <Card.Text>
             <h1
               style={{
-                fontSize: "2rem",
+                fontSize: "1.8rem",
                 color: "white",
                 fontWeight: "bold",
               }}
@@ -35,16 +35,16 @@ function Cardy() {
               <span
                 style={{
                   textDecoration: 'underline',
-                  textDecorationThickness: '6px',
+                  textDecorationThickness: '2px',
                   textDecorationColor: '#FF6A13',
                   textUnderlinePosition: 'under',
                   marginLeft: "10px",
                   marginRight: "10px",
+                 
                 }}
               >
                 Education
-              </span>
-              In Computer Science
+              </span> In Computer Science
             </h1>
           </Card.Text>
           <Card.Text>
@@ -103,7 +103,7 @@ function Cardy() {
                 style={{
                   width: "100%",
                   height: "70rem",
-                  objectFit: "",
+                  objectFit: "cover",
                 }}
               />
             </div>
