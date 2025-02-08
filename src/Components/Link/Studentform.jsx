@@ -10,14 +10,14 @@ function Studentform() {
         <div className='d-flex flex-column container'>
         <Button
             className="p-3 mt-4"
-            style={{ borderRadius: '0', width: "30rem", height: "5rem", border:"0",backgroundColor:"hsl(45.25714285714285, 70.85020242914982%, 51.56862745098039%)" }}
+            style={{ borderRadius: '0', width: "45%", height: "5rem", border:"0",backgroundColor:"hsl(45.25714285714285, 70.85020242914982%, 51.56862745098039%)" }}
           >
             <span className="fs-5 fw-semibold">Application FOR TRANSFER OF CERTIFICATE</span>
           </Button>
 
           <Button
             className="p-3 mt-4 "
-            style={{ borderRadius: '0', width: "30rem", height: "5rem", border:"0", backgroundColor:"hsl(45.25714285714285, 70.85020242914982%, 51.56862745098039%)" }}
+            style={{ borderRadius: '0', width: "45%", height: "5rem", border:"0", backgroundColor:"hsl(45.25714285714285, 70.85020242914982%, 51.56862745098039%)" }}
           >
             <span className="fs-5 fw-semibold">APPLICATION FOR BONAFIDE CERTIFICATE</span>
           </Button>
