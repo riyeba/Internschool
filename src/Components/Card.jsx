@@ -10,7 +10,7 @@ function Cardy() {
         className="w-100 w-lg-50"
         style={{
           height: "50rem",
-          padding: "2rem",
+          padding: "1rem",
           backgroundImage: "url('https://images.unsplash.com/photo-1738762388662-dc8387c816ba?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
           backgroundSize: "cover",
           backgroundPosition: "center",
