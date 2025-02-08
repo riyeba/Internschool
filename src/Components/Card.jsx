@@ -27,12 +27,12 @@ function Cardy() {
           borderRadius: "0",
         }}
       >
-        <Card.Body data-aos="zoom-in">
+        <Card.Body data-aos="zoom-in" data-aos-duration="2000">
           <Card.Text className="fs-4 text-warning">
             Welcome To Bill Gates Institute of Computer Science and Management,
             Osmanabad.
           </Card.Text>
-          <Card.Text data-aos="fade-down">
+          <Card.Text data-aos="fade-down" data-aos-duration="2000">
             <h1
               style={{
                 fontSize: "1.8rem",
@@ -91,7 +91,7 @@ function Cardy() {
           position: "relative",
           right: "2px",
         }}
-        data-aos="zoom-in-up"
+        data-aos="zoom-in-up" data-aos-duration="2000"
       >
         <Carousel
           indicators={false}

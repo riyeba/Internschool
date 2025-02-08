@@ -38,7 +38,7 @@ function Footer1() {
                 and a responsible Indian citizen. I am sure that, future will be
                 ours as I.T. is India's Tomorrow.
               </Card.Text>
-              <Button variant="primary" className="bg-warning fs-5 fw-bold" style={{ borderRadius: "0", border: "0", width: "100%", height: "4rem", marginTop: "1.2rem" }} data-aos="fade-right">
+              <Button variant="primary" className="bg-warning fs-5 fw-bold" style={{ borderRadius: "0", border: "0", width: "100%", height: "4rem", marginTop: "1.2rem" }} data-aos="fade-left" data-aos-duration="2000">
                 APPLY NOW
               </Button>
             </Card.Body>
@@ -46,7 +46,7 @@ function Footer1() {
         </Col>
 
         {/* Second Column: Two Stacked Cards (Equal Width) */}
-        <Col xs={12} md={3} data-aos="fade-right">
+        <Col xs={12} md={3} data-aos="fade-left" data-aos-duration="2000">
           <Row className="gy-3">
             <Col xs={12}>
               <div
@@ -94,7 +94,7 @@ function Footer1() {
         </Col>
 
         {/* Third Column: One Card */}
-        <Col xs={12} md={3} data-aos="fade-right">
+        <Col xs={12} md={3} data-aos="fade-left" data-aos-duration="2000">
           <Row className="gy-3">
             <Col xs={12}>
               <div

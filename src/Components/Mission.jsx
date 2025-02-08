@@ -30,7 +30,7 @@ function Mission() {
           </div>
         </Col>
 
-        <Col xs={12} md={4} data-aos="fade-left">
+        <Col xs={12} md={4} data-aos="fade-left" data-aos-duration="2000">
           <Row className="gy-3">
             <Col xs={12}>
               <div
@@ -75,7 +75,7 @@ function Mission() {
           </Row>
         </Col>
 
-        <Col xs={12} md={4} data-aos="fade-left">
+        <Col xs={12} md={4} data-aos="fade-left" data-aos-duration="2000">
           <Row className="gy-3">
             <Col xs={12}>
               <div
